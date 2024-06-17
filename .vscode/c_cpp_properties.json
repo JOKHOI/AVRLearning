@@ -3,7 +3,7 @@
         {
             "name": "avr",
             "includePath": [
-                "/home/johny/c_prog/Embedded/LED/ElegooNanoV3.0"
+                "/usr/lib/avr/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/avr-gcc",
