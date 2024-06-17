@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "avr",
+            "includePath": [
+                "/home/johny/c_prog/Embedded/LED/ElegooNanoV3.0"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/avr-gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
