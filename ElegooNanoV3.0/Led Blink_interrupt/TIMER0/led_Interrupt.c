@@ -9,7 +9,7 @@ int main(void){
      OCR0A = 156; //set CTC compare value to 156
      TIMSK0 = (1<<OCIE0A); //enable CTC interrupt
      sei(); //enable global interrupts 
-     TCCR0B = (1<<CS02) | (1<<CS00); //set timer 0 prescaler to 1024   
+     TCCR0B = (1<<CS02) | (1<<CS00); //set timer 0 prescaler to 1024  AND STARTS THE TIMER !!!! 
    
     //loop*(forever)
     while(1)
